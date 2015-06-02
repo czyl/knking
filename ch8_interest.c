@@ -15,7 +15,7 @@ int main(void)
 
 	printf("Years");
 	for (n=rate;n<5+rate;n++)
-		printf("%10d",n);
+		printf("%9d%%",n);
 	printf("\n");
 
 	for (i=1;i<=years;i++) { 
